@@ -11,19 +11,31 @@ h1, h2, h3{
 
 h2{
     border-bottom: 1px solid #a2a9b1;
-
 }
-ul li,ol li{
-    padding: 1em 0;
+
+ul li, ol li{
+    padding: 1em;
+    list-style-position: inside;
 }
 
 ol.answers{
-    list-style:upper-alpha
+    list-style: upper-alpha
 }
 
 span#correct-answer{
     font-weight: bold;
     color: rgb(9, 13, 247);
+}
+
+div#section-correct-answer{
+    display: none;
+}
+
+ol.answers li:hover {
+    border: 0.1em solid #010b16;
+    background-color: rgb(141, 226, 226);
+    padding: 0.9em;
+    cursor: pointer;
 }
 
 #main{
