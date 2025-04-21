@@ -8,3 +8,28 @@ body {
 h1, h2, h3{
     font-family: 'Courier New', Courier, monospace;
 }
+
+h2{
+    border-bottom: 1px solid #a2a9b1;
+
+}
+ul li,ol li{
+    padding: 1em 0;
+}
+
+ol.answers{
+    list-style:upper-alpha
+}
+
+span#correct-answer{
+    font-weight: bold;
+    color: rgb(9, 13, 247);
+}
+
+#main{
+    padding: 0 1.5em;
+}
+
+div.section{
+    margin-top: 2em;
+}
