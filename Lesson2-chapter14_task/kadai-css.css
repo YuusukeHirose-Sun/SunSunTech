@@ -1,25 +1,25 @@
-header, footer, #wrapper {
-    background-color: #ffcccc;
+body {
         width: 1000px;
-        margin: 0;
+        margin: 0px;
 }
-#wrapper {
-    width: 1000px;
-    overflow: hidden;
-    display: flex;
-  }
+header{background-color: #ffcccc;}
+/* ナビゲーション */
+#wrapper{ 
+  width: 1000px;
+  overflow: hidden;
+  display: flex;
+}
+/* メインコンテンツ */
 #main{
     width: 700px;
   background-color: #ccffcc;
-  float: left; /* ← 左に寄せる */
 }
+/* サイドバー */
 #menu{
     width: 300px;
     background-color: #ccccff;
-    float: left; /* ← 右に寄せる */
 }
 footer{
     width: 1000px;
     background-color: #ffccff;
-    clear: both;
 }
