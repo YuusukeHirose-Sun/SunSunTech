@@ -1,0 +1,25 @@
+body {
+        width: 1000px;
+        margin: 0px;
+}
+header{background-color: #ffcccc;}
+/* ナビゲーション */
+#wrapper{ 
+  width: 1000px;
+  overflow: hidden;
+  display: flex;
+}
+/* メインコンテンツ */
+#main{
+    width: 700px;
+  background-color: #ccffcc;
+}
+/* サイドバー */
+#menu{
+    width: 300px;
+    background-color: #ccccff;
+}
+footer{
+    width: 1000px;
+    background-color: #ffccff;
+}
