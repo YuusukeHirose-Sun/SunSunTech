@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 body {
-    font-family: "Hachi Maru Pop", cursive; */
+    font-family: "Hachi Maru Pop", cursive;
     font-weight: 400;
     font-style: normal;  
 }
@@ -19,12 +19,11 @@ ul li, ol li{
 }
 
 ol.answers{
-    list-style: upper-alpha
+    list-style: upper-alpha;
 }
 
 span#correct-answer{
     font-weight: bold;
-    color: rgb(9, 13, 247);
 }
 
 div#section-correct-answer{
