@@ -9,45 +9,18 @@ let clickCount = 0;
 button.addEventListener("click",function(){
 clickCount += 1; //クリック回数を１増やす 
 
-  // カウントが１の時だけ以下の処理をする
+  // カウントが1以降のメッセージ表示を設定
   if (clickCount === 1){
-    button.addEventListener('click', function() {
-      message.textContent = '1回目ですね。まだまだこれからです！';
-    });
+    message.textContent = '1回目ですね。まだまだこれからです！';
+  }else if (clickCount === 2){
+    message.textContent = '2回目です。いいペースです！';
+  }else if (clickCount === 3){
+    message.textContent = '3回目！半分きました！';
+  }else if (clickCount === 4){
+    message.textContent = '4回目です。あと少し！';
+  }else if (clickCount === 5){  
+    message.textContent = '5回目！お疲れ様でした！';
+  }else if (clickCount === 6){
+   button.style.display="none";
   }
-  
-    // カウントが2の時だけ以下の処理をする
-  if (clickCount === 2){
-    button.addEventListener('click', function() {
-      message.textContent = '2回目です。いいペースです！';
-    });
-  } 
-  
-    // カウントが3の時だけ以下の処理をする
-  if (clickCount === 3){
-    button.addEventListener('click', function() {
-      message.textContent = '3回目！半分きました！';
-    });
-  }
-  
-     // カウントが4の時だけ以下の処理をする
-  if (clickCount === 4){
-    button.addEventListener('click', function() {
-      message.textContent = '4回目です。あと少し！';
-    });
-  }
-  
-    // カウントが5の時だけ以下の処理をする
-  if (clickCount === 5){
-    button.addEventListener('click', function() {
-      message.textContent = '5回目！お疲れ様でした！';
-    });
-  }
-  
-    // カウントが6の時ボタンを非表示にする
-  if (clickCount === 6){
-    button.addEventListener('click', function() {
-      button.style.display="none";
-    });
-  }
-})
+});
